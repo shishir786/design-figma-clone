@@ -1,36 +1,181 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ridge Street Capital- Lending Website
 
-## Getting Started
+A modern, responsive website for Ridge Street Capital, a private mortgage lending company specializing in fix-and-flip loans and rental property financing. Built with Next.js 15 and Tailwind CSS, featuring a clean design with smooth navigation and mobile-first responsive layout.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Responsive Design**: Mobile-first approach with seamless adaptation across all devices
+- **Modern UI Components**: Clean, professional design with hover effects and smooth transitions
+- **Navigation System**: Fixed navbar with smooth scroll navigation and mobile hamburger menu
+- **Component-Based Architecture**: Modular React components for maintainable code
+- **Performance Optimized**: Built with Next.js 15 for optimal loading speeds
+- **TypeScript Support**: Full TypeScript implementation for type safety
+
+## 🛠️ Tools & Packages Used
+
+### Core Framework
+
+- **Next.js 15.4.3** - React framework with App Router
+- **React 19.1.0** - JavaScript library for building user interfaces
+- **TypeScript 5** - Static type checking
+
+### Styling & UI
+
+- **Tailwind CSS 4** - Utility-first CSS framework
+- **PostCSS** - CSS preprocessing
+- **Inter Font** - Modern typography
+- **Custom CSS Variables** - Consistent color theming
+
+### Development Tools
+
+- **ESLint 9** - Code linting and formatting
+- **Next.js ESLint Config** - Next.js specific linting rules
+- **TypeScript Compiler** - Type checking and compilation
+
+### Project Structure
+
+```
+src/
+├── app/
+│   ├── page.tsx          # Main landing page
+│   ├── layout.tsx        # Root layout component
+│   ├── globals.css       # Global styles and CSS variables
+│   └── favicon.ico       # Site favicon
+├── components/
+│   ├── Navbar.tsx        # Fixed navigation with mobile menu
+│   ├── HeroSection.tsx   # Hero banner with CTA
+│   ├── LoanProducts.tsx  # Loan products showcase
+│   ├── WhereWeLend.tsx   # Service areas map
+│   ├── ClientReviews.tsx # Customer testimonials carousel
+│   ├── PastProjects.tsx  # Project portfolio gallery
+│   ├── WorkWithUs.tsx    # Services overview
+│   ├── OtherResources.tsx# Additional resources
+│   ├── GetStarted.tsx    # Call-to-action section
+│   └── Footer.tsx        # Site footer
+└── public/
+    ├── *.png, *.svg      # Images and icons
+    └── assets/           # Static assets
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📋 Project Setup Instructions
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Prerequisites
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Node.js 18.0 or later
+- npm, yarn, pnpm, or bun package manager
 
-## Learn More
+### Installation
 
-To learn more about Next.js, take a look at the following resources:
+1. **Clone the repository**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   git clone <repository-url>
+   cd figma-web
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. **Install dependencies**
 
-## Deploy on Vercel
+   ```bash
+   npm install
+   # or
+   yarn install
+   # or
+   pnpm install
+   # or
+   bun install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. **Run the development server**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   # or
+   bun dev
+   ```
+
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000) to see the application.
+
+### Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build production application
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint for code quality
+
+## 🎨 Key Components
+
+### Navigation System
+
+- **Fixed Navbar**: Responsive navigation with smooth scroll anchors
+- **Mobile Menu**: Hamburger menu with overlay for mobile devices
+- **Anchor Links**: Direct navigation to page sections
+
+### Responsive Features
+
+- **Breakpoint System**: Tailored for mobile (sm), tablet (md), desktop (lg), and large screens (xl)
+- **Component Sizing**: Adaptive card layouts and responsive typography
+- **Navigation Arrows**: Consistent styling across carousel components
+
+### Interactive Elements
+
+- **Smooth Scrolling**: CSS-based smooth navigation between sections
+- **Hover Effects**: Subtle animations on buttons and links
+- **Mobile Optimization**: Touch-friendly interface elements
+
+## 🚀 Deployment
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+### Deploy on Vercel
+
+The easiest way to deploy is using the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme):
+
+1. Connect your GitHub repository
+2. Configure build settings (auto-detected)
+3. Deploy with zero configuration
+
+### Other Deployment Options
+
+- **Netlify**: Static site deployment
+- **AWS Amplify**: Full-stack deployment
+- **Docker**: Containerized deployment
+
+## 📱 Responsive Design
+
+The website is optimized for:
+
+- **Mobile Devices**: 320px - 768px
+- **Tablets**: 768px - 1024px
+- **Desktop**: 1024px - 1440px
+- **Large Screens**: 1440px+
+
+## 🔧 Development Notes
+
+- **Component Architecture**: Each section is a separate, reusable component
+- **CSS Organization**: Tailwind utilities with custom CSS variables for theming
+- **Navigation Logic**: Anchor-based routing with smooth scroll behavior
+- **Mobile-First**: Responsive design starts with mobile and scales up
+
+## 📄 Learn More
+
+To learn more about the technologies used:
+
+- [Next.js Documentation](https://nextjs.org/docs) - Learn about Next.js features and API
+- [Tailwind CSS](https://tailwindcss.com/docs) - Utility-first CSS framework
+- [TypeScript Handbook](https://www.typescriptlang.org/docs/) - TypeScript language reference
+- [React Documentation](https://react.dev/) - React library documentation
+
+---
+
+Built with using Next.js and Tailwind CSS
+
+## Screenshots

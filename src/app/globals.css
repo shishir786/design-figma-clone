@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 html {
   scroll-behavior: smooth;
@@ -14,7 +14,7 @@ section[id] {
   --foreground: #171717;
   --TextColor: #343434;
   --Black: #212121;
-  --Secondary-Light: #F2F2F2;
+  --Secondary-Light: #f2f2f2;
   --Primary: #165831;
 }
 
