@@ -1,8 +1,21 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
+/* Account for fixed navbar when scrolling to sections */
+section[id] {
+  scroll-margin-top: 100px;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --TextColor: #343434;
+  --Black: #212121;
+  --Secondary-Light: #F2F2F2;
+  --Primary: #165831;
 }
 
 @theme inline {
@@ -10,6 +23,8 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-inter: var(--font-inter);
+  --font-poppins: var(--font-poppins);
 }
 
 @media (prefers-color-scheme: dark) {
