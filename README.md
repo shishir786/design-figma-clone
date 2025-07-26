@@ -179,3 +179,19 @@ To learn more about the technologies used:
 Built with using Next.js and Tailwind CSS
 
 ## Screenshots
+<img width="1903" height="875" alt="image" src="https://github.com/user-attachments/assets/9673af2e-4353-4a41-831c-f96f889a1cf5" />
+<img width="1904" height="861" alt="image" src="https://github.com/user-attachments/assets/d0255f13-2205-4193-9c51-47b0617083be" />
+<img width="1895" height="894" alt="image" src="https://github.com/user-attachments/assets/0bbbc3e2-3d9e-49f8-8d8d-e4a81f7defac" />
+<img width="1903" height="878" alt="image" src="https://github.com/user-attachments/assets/5863532a-08e7-4129-8a7c-53d0459c36f8" />
+<img width="1904" height="876" alt="image" src="https://github.com/user-attachments/assets/80c124f5-e669-43cc-99e4-d4caf5658937" />
+<img width="1909" height="874" alt="image" src="https://github.com/user-attachments/assets/5228de28-60a8-4958-afdf-d4449dd39f13" />
+<img width="1902" height="862" alt="image" src="https://github.com/user-attachments/assets/d951d7a8-2bda-4d2e-a0d7-b9fa8e356621" />
+<img width="1906" height="882" alt="image" src="https://github.com/user-attachments/assets/b4f7d99b-8b7a-4f4c-9683-df7c8573d84b" />
+<img width="1909" height="865" alt="image" src="https://github.com/user-attachments/assets/94f56a00-4347-4d77-8a95-0038c58a4284" />
+<img width="1919" height="874" alt="image" src="https://github.com/user-attachments/assets/00c10f47-5f98-499a-8c09-70480015e1ab" />
+
+
+**
+
+
+
