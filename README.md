@@ -179,3 +179,4 @@ To learn more about the technologies used:
 Built with using Next.js and Tailwind CSS
 
 ## Screenshots
+![alt text](image.png)
